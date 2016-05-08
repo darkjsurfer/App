@@ -2,10 +2,13 @@
 	width:100%;
 	border:1px solid blue;
 	padding:10px;
+	height:600px;
 }
 
 .col-one, .col-two {
-	width:50%;
+	width:49.6%;
 	border:1px solid black;
+	height:600px;
 	float:left;
+
 }
