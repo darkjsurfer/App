@@ -1,0 +1,11 @@
+.container {
+	width:100%;
+	border:1px solid blue;
+	padding:10px;
+}
+
+.col-one, .col-two {
+	width:50%;
+	border:1px solid black;
+	float:left;
+}
