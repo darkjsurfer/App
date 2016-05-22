@@ -1,7 +1,7 @@
 
 .container {
 	width:100%;
-	background-color: #66CD00;
+	background-color: #eee;
 	padding:30px;
 	height:600px;
 }
@@ -19,33 +19,112 @@
 .col-two .square {
 	width:50%;
 	border: 2px solid white;
-	height:550px;
+	height:350px;
 	text-align: center;
 	font-family: sans-serif;
 	border-radius: 10px;
+	padding:10px;
+	background-color: white;
 }
 
 .square h2 {
-	color:white;
+	color:#000;
 	letter-spacing: 1px;
 }
 
 body {
-	background-color: #66cd00;
+	background-color: #eee;
 }
 
 .sign {
 	margin-top: 10px;
-	border-radius: 10px;
-	background-color: red;
+	height:30px;
+	background-color: #3fa4ff;
+	border: 1px solid #3fa4ff;
 	color:white;
-	border:1px solid #66CD00;
+	width:80%;letter-spacing: 1px;
 }
 
 span {
 	letter-spacing: 1px;
-	color:gray;
+	color:#3fa4ff;
 }
+
+.username, .password, .email, .fname {
+	margin-top: 10px;
+	text-align: center;
+	width:80%;
+	height:20px;
+}
+
+.caption {
+	letter-spacing: 1px;
+	padding:13px;
+	margin-top: 10px;
+	text-align: center;
+	font-size:15px;
+	float:left;
+	font-family: sans-serif;
+}
+
+.square2, .square3 {
+	padding:10px;
+	text-align: center;
+	margin-top:20px;
+	border-radius: 10px;
+	padding:10px;
+	width:50%;
+	height:20px;
+	background-color: white;
+}
+
+.square2 a {
+	margin-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+
+.square2 span {
+	color:#3fa4ff;
+	font-family: sans-serif;
+}
+
+.square3 {
+	height:70px;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+.square3  p {
+	font-size: 15px;
+}
+
+.android, .apple {
+	text-align: center;
+	width:43%;
+	height:50px;
+	background-color: black;
+	margin:10px;
+	float:left;
+	margin-left:0 auto;
+	margin-right:0 auto;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.android span, .apple span {
+	line-height: 50px;
+	color:white;
+	font-family: sans-serif;
+
+}
+
+
+
+
+
 
 
 
