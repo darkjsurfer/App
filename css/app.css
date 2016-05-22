@@ -121,14 +121,34 @@ span {
 }
 
 .menu {
+	text-align: center;
 	width:100%;
-	height:50px;
+	height:95px;
 	background-color: #3fa4ff;
 }
 
 .gray {
 	background-color: #eee;
 }
+
+.icons {
+	cursor: pointer;
+	margin:0 auto;
+	display: inline-block;
+}
+
+.icon-space {
+	padding:30px;
+	border:1px solid blue;
+}
+
+.wrapper {
+	width:100%;
+	height:800px;
+	border: 1px solid red;
+}
+
+
 
 
 
